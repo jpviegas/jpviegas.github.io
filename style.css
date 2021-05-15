@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+    padding: auto;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .1em;
+    word-spacing: .1em;
+}
+
+body {
+    background-color: #757780;
+    padding: 0 15% 0 15%;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.head {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.foto {
+    display: inline-block;
+}
+
+.pessoal {
+    padding: 1em;
+}
+
+.pessoal p {
+    text-align: justify;
+}
+
+.skills {
+    padding: 1em;
+}
+
+.blog {
+    padding: 1em;
+}
+
+footer {
+    padding: 1em;
+}
