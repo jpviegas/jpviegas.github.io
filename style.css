@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0 auto;
     padding: auto;
     text-decoration: none;
@@ -7,26 +8,46 @@
     word-spacing: .1em;
 }
 
-body {
-    background-color: #757780;
-    padding: 0 15% 0 15%;
-}
-
 p span {
     font-weight: bold;
 }
 
-.head {
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+body {
+    background-image: linear-gradient(black, white);
+    padding: 0 10% 0 10%;
 }
 
-.foto {
+.nav-top {
+    align-items: center;
+    background-color: #a6808c;
+    justify-content: space-between;
+    padding: .5em;
+    position: fixed;
+    width: 80%;
+}
+
+.nav-top ul {
+    text-align: center;
+    word-spacing: 2em;
+}
+
+.nav-top ul li {
     display: inline-block;
 }
 
+main {
+    background-color: #706677;
+    padding-top: 2.2em;
+}
+
+#foto {
+    border-radius: 100%;
+    padding: .2em;
+    width: 200px;
+}
+
 .pessoal {
-    padding: 1em;
+    padding: 1em 0 3em 1em;
 }
 
 .pessoal p {
@@ -34,13 +55,23 @@ p span {
 }
 
 .skills {
-    padding: 1em;
+    padding: 1em 0 3em 1em;
 }
 
 .blog {
-    padding: 1em;
+    padding: 1em 0 3em 1em;
 }
 
 footer {
+    background-color: #58504a;
     padding: 1em;
+}
+
+footer ul {
+    text-align: center;
+    word-spacing: 2em;
+}
+
+footer ul li {
+    display: inline-block;
 }
