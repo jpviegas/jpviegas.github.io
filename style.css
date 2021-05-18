@@ -13,30 +13,75 @@ p span {
 }
 
 body {
-    background-image: linear-gradient(black, white);
+    background-image: linear-gradient(#afb9c8, #d1d9d9, #afb9c8);
     padding: 0 10% 0 10%;
 }
 
 .nav-top {
     align-items: center;
-    background-color: #a6808c;
+    background-color: #afb9c8;
     justify-content: space-between;
-    padding: .5em;
     position: fixed;
     width: 80%;
 }
 
 .nav-top ul {
+    position: relative;
     text-align: center;
     word-spacing: 2em;
 }
 
 .nav-top ul li {
     display: inline-block;
+    padding: .5em;
+}
+
+.nav-top ul li a:hover {
+    text-transform: uppercase;
+}
+
+.nav-top ul li:nth-child(1) a:hover {
+    color: black;
+}
+
+.nav-top ul li:nth-child(2) a:hover {
+    color: blue;
+}
+
+.nav-top ul li:nth-child(3) a:hover {
+    color: brown;
+}
+
+.nav-top ul li:nth-child(4) a:hover {
+    color: white;
+    padding: initial;
+}
+
+.nav-top ul ul li:nth-child(1) a:hover, .nav-top ul ul li:nth-child(2) a:hover {
+    color: black;
+    text-transform: none;
+}
+
+.nav-top ul ul{
+    background: #afb9c8;
+    display: none;
+    opacity: 80%;
+    position: absolute;
+    padding: 0;
+    text-transform: none;
+    top: 2.1em;
+}
+
+.nav-top ul li:hover ul {
+    display: block;
+}
+
+.nav-top ul ul li {
+    display: block;
 }
 
 main {
-    background-color: #706677;
+    background-color: white;
     padding-top: 2.2em;
 }
 
@@ -63,12 +108,11 @@ main {
 }
 
 footer {
-    background-color: #58504a;
+    background-color: #afb9c8;
     padding: 1em;
 }
 
 footer ul {
-    text-align: center;
     word-spacing: 2em;
 }
 
