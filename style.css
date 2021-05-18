@@ -81,8 +81,23 @@ body {
 }
 
 main {
-    background-color: white;
+    background-color: transparent;
+    display: inline-block;
     padding-top: 2.2em;
+    width: 100%;
+}
+
+.aside {
+    background: whitesmoke;
+    /*display: block;
+    height: 100%;
+    width: 50%;*/
+}
+
+main h1, main h2 {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
 }
 
 #foto {
@@ -91,20 +106,17 @@ main {
     width: 200px;
 }
 
-.pessoal {
-    padding: 1em 0 3em 1em;
+.aside, .pessoal, .iframe, .skills, .blog {
+    padding: 1em 0 1em 1em;
 }
 
-.pessoal p {
+#pessoal p {
     text-align: justify;
 }
 
-.skills {
-    padding: 1em 0 3em 1em;
-}
-
-.blog {
-    padding: 1em 0 3em 1em;
+iframe {
+    height: auto;
+    width: auto;
 }
 
 footer {
