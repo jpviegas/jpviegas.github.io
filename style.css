@@ -15,7 +15,11 @@
   word-spacing: 0.1em;
 }
 
-a {
+a,
+.nav-top ul li:nth-child(2) a:hover,
+.nav-top ul ul li:nth-child(1) a,
+.nav-top ul ul li:nth-child(2) a,
+.nav-top ul ul li:nth-child(3) a {
   color: blue;
 }
 
@@ -28,12 +32,14 @@ p span {
   font-weight: bold;
 }
 
-.nav-top a, footer a {
+.nav-top a,
+footer a {
   color: initial;
   text-decoration: none;
 }
 
-.nav-top a:hover, footer a:hover {
+.nav-top a:hover,
+footer a:hover {
   font-style: initial;
   text-decoration: initial;
 }
@@ -74,10 +80,6 @@ body {
   color: black;
 }
 
-.nav-top ul li:nth-child(2) a:hover {
-  color: blue;
-}
-
 .nav-top ul li:nth-child(3) a:hover {
   color: brown;
 }
@@ -90,7 +92,9 @@ body {
 .nav-top ul ul li:nth-child(1) a:hover,
 .nav-top ul ul li:nth-child(2) a:hover,
 .nav-top ul ul li:nth-child(3) a:hover {
-  color: black;
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
   text-transform: none;
 }
 
