@@ -9,12 +9,19 @@
   <meta name="author" content="JP Viegas">
   <meta name="description" content="esta é a página principal do meu portifólio">
   <meta name="keywords" content="portifolio, trybe">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
   <link rel="stylesheet" href="style.css">
   <title>JP Viegas - Portifólio</title>
 </head>
 
 <body>
+  <!-- cabeçalho -->
   <header class="head">
+    <!-- nav menu fixo -->
     <nav class="nav-top">
       <ul>
         <li><a href="index.html">/Home</a></li>
@@ -34,13 +41,15 @@
       </ul>
     </nav>
   </header>
+  <!-- conteudo da pagina -->
   <main class="main">
+    <!-- conteudo lateral (ainda não fiz) -->
     <aside class="aside">
       <h1 class="sobre">Sobre mim:</h1>
       <div class="foto">
         <img id="foto" src="images/foto.jpeg" alt="foto de joao paulo viegas">
       </div>
-      <div class="pessoal">
+      <article class="pessoal">
         <h2>Descrição pessoal:</h2>
         <p>Um rapaz <span>brasileiro, natural de Natal/RN</span>.<br />Amo minha família.<br />Apaixonado
           por
@@ -50,7 +59,7 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.6903256859914!2d-35.233810593592004!3d-5.8017941082018245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aab5082d3eb7%3A0x95203c2f1bceec34!2sRua%20Senador%20Robert%20Kennedy%20-%20Quintas%2C%20Natal%20-%20RN%2C%2059035-030!5e0!3m2!1sen!2sbr!4v1621353338127!5m2!1sen!2sbr"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
         </iframe>
-      </div>
+      </article>
     </aside>
     <div class="skills">
       <h2>Lista de habilidades:</h3>
@@ -63,15 +72,16 @@
     <div class="blog">
       <h2>Recomendação de blog muito bom:</h2>
       <ul>
-        <li><a href="commands.html">37 Comandos Linux</a></li>
+        <li><a href="commands.html">37 Comandos Linux</a></li> <!-- link pra uma pagina interna -->
         <li><a href="https://www.tutorialrepublic.com/html-reference/html5-tags.php" target="_blank"
-            rel="noopener noreferrer">HTML5 tags</a></li>
+            rel="noopener noreferrer">HTML5 tags</a></li> <!-- links para paginas externas -->
         <li><a href="https://www.olhardigital.com.br/" target="_blank" rel="noopener noreferrer">Olhar
             Digital</a></li>
         <li><a href="https://www.tecmundo.com.br/" target="_blank" rel="noopener noreferrer">TecMundo</a></li>
       </ul>
     </div>
   </main>
+  <!-- rodapé -->
   <footer>
     <h2>Indice:</h2>
     <ul>
